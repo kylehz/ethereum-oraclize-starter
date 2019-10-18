@@ -6,7 +6,7 @@
         "avg_val": "0.392",
         "avg_timediff": "5.636",
         "avg_age": "7.073",
-        "utility_score": "0.411",
+        "utility_score": 0.411,
         "risk_score": "0.648",
         "transitivity_score": "0.209",
         "importance_score": "0.330"
