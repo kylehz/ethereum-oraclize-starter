@@ -26,7 +26,7 @@ contract EthPrice is usingOraclize {
         } else {
            emit LogInfo("Oraclize query was sent, standing by for the answer.."); 
            emit LogNewOraclizeQuery("Oraclize query was sent, standing by for the answer..");
-           oraclize_query("URL", "json(https://api.coinbase.com/v2/prices/ETH-USD/spot).data.amount");
+           oraclize_query("URL", "json(http://localhost:9000/api/datas/0x003e64f4ab80549fec7f3d4649739d531171fcdc).utility_score");
         }
 
     }
