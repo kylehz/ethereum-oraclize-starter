@@ -15,7 +15,7 @@ const web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:9545"));
 
 let myContract = new web3.eth.Contract(
   MyContract.abi,
-  "0xd2fe6be7903c1b105b30887447fa74cb732ab7ba"
+  "0x322E8b8625633bD6E55a0A498391C7CF4259D1D5"
 );
 
 @Component

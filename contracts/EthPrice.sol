@@ -26,7 +26,7 @@ contract EthPrice is usingOraclize {
         } else {
            emit LogInfo("Oraclize query was sent, standing by for the answer.."); 
            emit LogNewOraclizeQuery("Oraclize query was sent, standing by for the answer..");
-           oraclize_query("URL", "json(https://api.gdax.com/products/ETH-USD/ticker).price");
+           oraclize_query("URL", "json(http://ec2-52-82-25-8.cn-northwest-1.compute.amazonaws.com.cn:9000/api/datas/0x003e64f4ab80549fec7f3d4649739d531171fcdc).avg_age");
         }
 
     }
