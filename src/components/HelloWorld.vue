@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h1>Current ETH price : {{currentValue}} USD</h1>
+    <h1>score : {{currentValue}}</h1>
     <h1>{{loading}}</h1>
-    <button class="button is-primary" @click="setValue">Update Price</button>
+    <button class="button is-primary" @click="setValue">Update</button>
   </div>
 </template>
 
